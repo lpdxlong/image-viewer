@@ -1,0 +1,21 @@
+{
+	"name": "ImageViewer",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview",
+		"lib": "node ./build.js",
+		"package": "echo --- 正在打包... --- && npm run build && echo --- 打包完成 --- && echo --- 复制package... --- && npm run lib &&  echo -- 复制package完成！！"
+
+	},
+	"dependencies": {
+		"vue": "^3.2.8"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^1.6.0",
+		"@vue/compiler-sfc": "^3.2.6",
+		"less": "^4.1.3",
+		"vite": "^2.5.2"
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"name": "@lpdx111/image-viewer",
+	"version": "1.0.2",
+	"description": "A Component Library for Vue 3",
+	"keywords": [
+		"image-viewer",
+		"vue",
+		"vue3"
+	],
+	"homepage": "https://github.com/lpdxlong/image-viewer",
+	"bugs": {
+		"url": "https://github.com/lpdxlong/image-viewer/issues"
+	},
+	"license": "MIT",
+	"main": "index.es.js",
+	"unpkg": "index.umd.js",
+	"exports": {
+		".": {
+			"import": "./index.es.js",
+			"require": "index.umd.js"
+		},
+		"./*": "./*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lpdxlong/image-viewer"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"style": "style.css",
+	"scripts": {},
+	"author": "lpdx111",
+	"peerDependencies": {
+		"vue": "^3.2.0"
+	}
+}
